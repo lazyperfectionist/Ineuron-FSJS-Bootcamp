@@ -1,0 +1,120 @@
+*{
+    font-family: "Orbitron";
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list-item{
+    list-style: none;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.button-group{
+    display: flex;
+    align-items: center;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-container > div > img{
+    height: 450px;
+    position: absolute;
+    left: 7%;
+    top: 25%;
+}
+.hero-container-right{
+    margin-left: 45%;
+    margin-top: 10%;
+}
+.square > img{
+    height: 300px;
+    position: absolute;
+    top: 54%;
+    left: 15%;
+}
+.globe >img{
+    height: 50px;
+    position: absolute;
+    left: 53%;
+    top: 20%;
+}
+.hero-container .star:nth-child(2)>img{
+    position: absolute;
+    left: 87%;
+    top: 28%;
+    height: 50px;
+}
+.hero-container .star:nth-child(3)>img{
+    position: absolute;
+    left: 44%;
+    height: 40px;
+    top: 87%;
+}
+.search-icon>svg{
+    height: 25px;
+    margin-top: 8px;
+}
+.nav-button{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5px;
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 20px;
+}
+.hero-heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+.hero-description{
+    margin-top: 30px;
+    font-size: 15px;
+    /* width: 600px; */
+    color: #5f5f5f;
+}
+.hero-container-right{
+    text-align: center;
+    margin-right: 100px;
+}
+.contact-heading{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.icons >span > img{
+    height: 30px;
+    padding: 7px;
+}
+.hero-container-right > div > button{
+    margin-top: 60px;
+}
+.button-email{
+    font-size: 15px;
+    height: 30px;
+    width: 170px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 7px;
+}
+.button-join{
+    color: white;
+    font-size: 15px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 7px;
+}

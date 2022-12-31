@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+body{
+    background-color: #2C2C32;
+    color: white;
+}
+.navbar{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin:10px 10% 15px 11%;   
+}
+.list-items{
+    margin-left: 40px;
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+    color: #8D8D90;
+}
+ul > li:hover{
+    color: #FFFFFF;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left > h1{
+    font-size: 20px;
+}
+.navbar > ul >li{
+    margin-right: 20px;
+}
+.left >h1{
+    margin-left: 10px;
+}
+.logo{
+    width:25px;
+}
+.header{
+    text-align: center;
+    background-color: #25252B;
+    height: 35px;
+    padding-top: 10px;
+    font-size: 17px;
+    color: #C5C5C5;
+}
+.header > span{
+    color:#038CEB;
+
+}
+
+.right , .container{
+    display: flex;
+    align-items: center;
+}
+.down-btn{
+    height: 55px;
+    width: 150px;
+    border-radius: 0;
+    background-color: #005BA4;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.input{
+    height: 50px;
+    border-radius: 0;
+    border: none;
+}
+.search{
+    width: 16px;
+    margin-left: 10px;
+}
+.container{
+    /* border: 1px solid white; */
+    height: 55px;
+    /* width: 150px; */
+    background-color: #525257;
+}
+
+.form > input{
+    background-color: #525257;
+    border: none;
+    color: white;
+    margin-left: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main-left{
+    width: 25%;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.main-right{
+    width: 60%;
+}
+.codeImage{
+    height: 590px;
+    margin-top: 30px;
+}
+.main-left > h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.main-left > h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+.main-left > p{
+    margin-bottom: 20px;
+}
+.down-btn-large{
+    font-size: 20px;
+    height: 65px;
+    border: none;
+    width: 65%;
+    color: white;
+    background-color: #005BA4;
+}
+.down-btn-sm{
+    position: relative;
+    bottom: 11px;
+    height:65px;
+    width: 40px;
+    margin-top: 0px;
+    font-size: 20px;
+    border: none;
+    background-color: #005BA4;
+}
+
+
+
+/*
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>VsCode</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="left">    
+        <img src="./assets/logo.png" alt="" class="logo" />
+        <h1>Visual studio code</h1>
+      </div>
+      <ul class="list-items">
+        <li>Docs</li>
+        <li>Updates</li>
+        <li>Blog</li>
+        <li>API</li>
+        <li>Extensions</li>
+        <li>FAQ</li>
+        <li>Learn</li>
+      </ul>
+      <div class="right">
+        <div class="container">
+          <img src="./assets/search.svg" alt="" class="search" />
+          <form action="#" class="form">
+            <input type="text" placeholder="Search Docs" />
+          </form>
+        </div>
+        <button class="down-btn">Download</button>
+      </div>
+    </nav>
+    <header>
+      <p class="header">
+        <span>Version 1.73</span> is now available! Read about the new features
+        and fixes from October.
+      </p>
+    </header>
+    <main class="main">
+      <div class="main-left">
+        <h1>Code editing.</h1>
+        <h2>Redefined.</h2>
+        <p>Free. Built on open source. Runs everywhere.</p>
+        <div class="btn">
+          <button class="down-btn-large"> Download for Windows
+            <small>stable build</small>
+          </button>
+          <button class="down-btn-sm"><a href="#"><img src="./assets/down-icon.png" alt=""></a></button> 
+        </div>
+        <p>Web, Insiders edition, or other platforms</p>
+        <p>By using VS Code, you agree to its license and privacy statement.</p>
+      </div>
+      <div class="main-right">  
+        <img src="./assets/codeImage.jpg" alt="CodeImage" class="codeImage" />
+      </div>
+    </main>
+  </body>
+</html> */

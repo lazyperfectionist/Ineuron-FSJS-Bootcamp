@@ -1,0 +1,50 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+ 
+body{
+    font-family: "Orbitron";
+}
+.navbar-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+}
+.list-item{
+    list-style-type: none;
+    padding: 10px;
+}
+.nav-button{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+.hero-container{
+    display: flex;
+}
+.hero-container > div > img{
+    position: relative;
+    right: 520px;
+    top: 70px;
+    bottom: 20px;
+    height: 400px;
+}
+.hero-container > span > img{
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+.hero-container-right{
+    padding: 100px;
+    height: 100px;
+    width: 100p;
+}
+.hero-heading{
+    font-size: 50px;
+} 

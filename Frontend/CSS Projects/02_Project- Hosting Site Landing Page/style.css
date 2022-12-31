@@ -1,0 +1,26 @@
+*{
+    background-color: black;
+    color:white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-list >ul {
+    display: flex;
+}
+.hero-section{
+    display: flex;
+}
+.logo-5 > img{
+    padding-right: 10%;
+    background:none;
+}
+.logo-5{
+    display: flex;
+    align-items: center;
+    background-color: #1D1C1C;
+    height: 120px;
+    padding-left: 20%;
+}
