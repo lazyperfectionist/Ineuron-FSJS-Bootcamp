@@ -1,11 +1,8 @@
 # Live Project Links
 
 ## CSS Project Links :
-<ol>
-    <li>Credit card landing page : https://sensational-capybara-0ef93d.netlify.app </li>
-</ol>
+1. [Credit card landing page](https://sensational-capybara-0ef93d.netlify.app)
+2. 
 
 ## Tailwind Project Links :
-<ol>
-    <li>Vs Code Clone: https://lazy-vscode-clone.netlify.app </li>
-</ol> 
+1. [VS Code Clone](https://lazy-vscode-clone.netlify.app/)
