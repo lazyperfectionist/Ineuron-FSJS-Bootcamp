@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- Resetting browser css -->
     <link rel="stylesheet" href="reset.css">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- Navbar section -->
     <nav class="navbar">
         <div>
-            <img src="./Project-08 Hosting Site/assets/Logo.svg" alt="">
+            <img src="./Project-08 Hosting Site/assets/Logo.svg" alt="" class="nav-logo">
         </div>
         <div class="nav-list">
             <ul>
@@ -23,21 +26,22 @@
             </ul>
         </div>
         <div>
-            <button>Login</button>
+            <button class="nav-login-button">Login</button>
         </div>
     </nav>
     <main>
         <!-- Hero section -->
         <div class="hero-section">
-            <div>
-                <h1>The best and <span>cheapest</span> hosting for your website</h1>
-                <p>Hosting your website here is easy, access is fast, server security is ery well maintai
+            <div class="hero-left">
+                <h1 class="hero-heading">The best and <em id="hero-cheapest">cheapest</em> hosting  for your website</h1>
+                <p class="hero-desc">Hosting your website here is easy, access is fast, server security is ery well maintai
                     ned, and of course supported by reliable servers.</p>
                 <div>
-                    <button>Get Started</button><button>Try Start Free</button>
+                    <button class="hero-gs-button">Get Started</button>
+                    <button class="hero-tsf-button">Try Start Free</button>
                 </div>
             </div>
-            <div>
+            <div class="hero-right">
                 <img src="./Project-08 Hosting Site/assets/Illustrations/Group 238502.svg" alt="">
             </div>
         </div>
