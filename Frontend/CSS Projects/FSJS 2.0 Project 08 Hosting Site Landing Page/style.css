@@ -1,6 +1,7 @@
 body{
     background-color: #111010;
     color: white;
+    font-family: "Manrope", sans-serif; 
 }
 /* Navbar section */
 .navbar{
@@ -13,9 +14,11 @@ body{
     display: flex;
 }
 .nav-list > ul >li{
+    color: #A09F9F;
     padding-right: 30px;
 }
 .nav-login-button{
+    color: white;
     height: 50px;
     width: 110px;
     border-radius: 50px;
@@ -27,39 +30,52 @@ body{
 /* Hero section */
 .hero-section{
     display: flex;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 100px;
+    padding-bottom: 50px;
 }
 .hero-left{
     width: 50%;
 }
 .hero-heading{
-    font-size: 100px;
+    font-size:80px;
     margin-bottom: 50px;
+    font-weight: bold;
 }
 #hero-cheapest{
     color:#0C8BFD;
+    font-style: italic;
 }
 .hero-desc{
-    font-size: 25px;
+    font-size: 24px;
     margin-bottom: 50px;
+    color: #A09F9F;
+    line-height: 40px;
+}
+.hero-buttons{
+    margin-top:50px;
 }
 .hero-gs-button{
-    height: 50px;
-    width: 200px;
+    color: white;
+    height: 60px;
+    width: 150px;
     border-radius: 50px;
     border: none;
     background-color:#0C8BFD;
     font-size: 18px;
+    margin-right: 40px;
+    font-weight: bold;
 }
 .hero-tsf-button{
-    height: 50px;
-    width: 200px;
+    color: white;
+    height: 60px;
+    width: 170px;
     border-radius: 50px;
     border: 1px solid white;
     background-color:#111010;
     color: white;
     font-size: 18px;
+    font-weight: bold;
 }
 
 /* 5 logo section */
@@ -82,14 +98,15 @@ body{
 }
 .services-heading{
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     padding-top: 100px;
     font-weight: 900;
 }
 .services-desc{
     text-align: center;
-    font-size: 30px;
+    font-size: 23px;
     margin-top: 20px;
+    line-height: 35px;
     color: #969595;
 }
 .cards{
@@ -104,6 +121,10 @@ body{
     height:350px;
     margin-right: 4%;
     width: 40%;
+}
+.card1:hover{
+    background-color: black;
+    color: white;
 }
 .card1>img{
     padding-top: 20px;
@@ -131,6 +152,10 @@ body{
     width: 40%;
     box-shadow: 0px 20px 10px grey;
 }
+.card2:hover{
+    background-color: white;
+    color: black;
+}
 .card2>img{
     padding-top: 20px;
 }
@@ -153,6 +178,10 @@ body{
     margin-right: 4%;
     width: 40%;
 }
+.card3:hover{
+    background-color: black;
+    color: white;
+}
 .card3>img{
     padding-top: 20px;
 }
@@ -169,42 +198,64 @@ body{
 }
 
 /* Services list  */
+.services-list{
+    padding-bottom: 100px;
+}
 .services-list-heading{
-    font-size: 80px;
+    font-size: 50px;
+    font-weight: bold;
     padding-left: 8%;
     padding-bottom: 100px;
 }
 .services-list-flex{
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 100px;
 }
-/* Services list left */
-.services-left-list >li{
-    height: 100px;
-    width: 700px;
-    border: 1px solid black;
-    border-radius: 50px;
-    margin-bottom: 40px;
-    
+/* Services left */
+.services-left-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 45px;
+    margin: 20px;
+    border: 1px solid grey;
+
 }
-.services-left-list > li:first-child{
-    background-color: #0C8BFD;
+.services-left-list > div:first-child{
+    background-color:#0C8BFD;
+    color: white;
     border: none;
 }
-/* Services right list */
+.services-left-items:hover{
+    background-color: #0C8BFD;
+    color: white;
+    cursor: pointer;
+}
+
+/* Services right */
 .services-right-list{
-    border-radius: 30px;
     background-color: black;
     color: white;
+    border-radius: 50px;
 }
-.services-right-list >li{
-    font-size: 24px;
-    height: 62px;
-    width: 450px;
-    border: 1px solid black;
+.circle{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(110, 110, 110);
+    border-radius: 50px; 
+    margin-right: 10px;
+}
+.services-right-items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    padding:25px;
     margin: 20px;
-    border-radius: 40px;
-    background-color:#292828;
-}
+    border-radius: 50px;
+    background-color: #171616;
+}   
