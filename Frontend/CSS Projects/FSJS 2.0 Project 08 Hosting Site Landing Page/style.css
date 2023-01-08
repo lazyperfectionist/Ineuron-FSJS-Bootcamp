@@ -258,3 +258,139 @@ body{
     border-radius: 50px;
     background-color: #171616;
 }   
+/* Prices section */
+.prices-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.prices-heading-section{
+    display: flex;
+    justify-content: space-around;
+}
+/* Upper heading */
+.prices-heading{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    /* line-height: 80px; */
+}
+/* left-right arrows */
+.prices-arrow-left , .prices-arrow-right{
+    padding-top: 50px;
+}
+
+/* Prices card */
+
+.prices-card-flex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+/* Regular card (1st card left-most) */
+.prices-regular-card{
+    width: 22%;
+    border:none;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: white;
+    color: black;
+}
+.prices-regular-card >h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.prices-regular-card > p:nth-child(2) {
+    font-size: 50px;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+.prices-regular-card > p:nth-child(3) {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+.prices-select-button{
+    width:100%;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0C8BFD;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+/* Card features section */
+.prices-card-features>div{
+    display: flex;
+    padding-top: 30px;
+}
+.prices-card-features>div>h2{
+    font-size: 20px;
+    padding-left: 10px;
+}
+/* Standard card */
+.prices-standard-card{
+    width: 22%;
+    border: none;
+    border-radius: 50px;
+    padding: 30px;
+    background-color:#0C8BFD;
+    color: white;
+}
+.prices-standard-card >h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.prices-standard-card > p:nth-child(2) {
+    font-size: 50px;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+.prices-standard-card > p:nth-child(3) {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+.prices-select-mid-button{
+    width:100%;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: #0C8BFD;
+    margin-top: 40px;
+    font-weight: bold;
+
+}
+/* Premium card */
+.prices-premium-card{
+    width: 22%;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+.prices-premium-card >h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.prices-premium-card > p:nth-child(2) {
+    font-size: 50px;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+.prices-premium-card > p:nth-child(3) {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
