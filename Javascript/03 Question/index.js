@@ -1,2 +1,2 @@
 let firstName = "Shivansh"
-console.log(firstName.toUpperCase());
+console.log(firstName.toUpperCase));
