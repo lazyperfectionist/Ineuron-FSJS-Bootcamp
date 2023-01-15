@@ -37,6 +37,10 @@
     font-weight: bold;
     font-size: 16px;
 }
+.nav-signin-button:hover{
+    background-color:#F4694C;
+    color: #fff;
+}
 .nav-signup-button{
     height: 50px;
     width: 120px;
@@ -46,6 +50,10 @@
     cursor: pointer;
     font-weight: bold;
     font-size: 16px;
+}
+.nav-signup-button:hover{
+    background-color: #fff;
+    color: #F4694C;
 }
 /* Main Section */
 main{
@@ -76,6 +84,10 @@ main{
     font-size: 15px;
     margin-right: 20px;
 }
+.hero-left-gets-button:hover{
+    background-color:white;
+    color: #F4694C;
+}
 .hero-left-learn-button{
     margin-top: 50px;
     height: 50px;
@@ -85,6 +97,11 @@ main{
     color: white;
     font-weight: bold;
     font-size: 15px;
+}
+.hero-left-learn-button:hover{
+    background-color:#F4694C;
+    color:white;
+    border: none;
 }
 
 
@@ -124,18 +141,26 @@ main{
 }
 .cards{
     display: flex;
-    justify-content: space-around; 
+    justify-content: center;
     margin-top: 40px; 
 }
 .card-details{
     display: flex;
     align-items: center;
     justify-content:space-around;
-    padding: 10px;
+    padding: 15px;
     backdrop-filter: blur(20px);
     width: 100%;
 }
+.card-details >div >p{
+    padding-bottom: 10px;
+}
+.card-details >div >p:nth-child(2){
+    color: #8A8984;
+    font-size: 15px;
+}
 .card{
+    margin: 20px;
     height: 300px;
     width: 280px;
     display: flex;
@@ -151,11 +176,11 @@ main{
 .card-1{
     background-image: url("./Assets/Photos/image\ 2.png");
 }
-.card-2{
+.card-3{
     background-image: url("./Assets/Photos/image\ 3.png");
     background-position: -6rem 0 !important; 
 }
-.card-3{
+.card-2{
     background-image: url("./Assets/Photos/image\ 4.png");
     background-position: -150px !important; 
 
@@ -165,4 +190,25 @@ main{
 }
 .card:hover{
     transform: scale(1.1);
+}
+.card-button{
+    height: 35px;
+    width: 90px;
+    background-color:#F4694C;
+    border: none;
+    color: white;
+}
+.card-button:hover{
+    background-color: white;
+    color: #F4694C;
+    
+}
+
+/* Adrenaline section */
+.adr-section{
+    display: flex;
+    justify-content: center;
+}
+.adr-section-left>img{
+
 }
