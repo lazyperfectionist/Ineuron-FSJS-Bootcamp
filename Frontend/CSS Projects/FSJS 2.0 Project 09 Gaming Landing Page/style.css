@@ -39,7 +39,7 @@
 }
 .nav-signin-button:hover{
     background-color:#F4694C;
-    color: #fff;
+    color: #fff ;
 }
 .nav-signup-button{
     height: 50px;
@@ -209,6 +209,46 @@ main{
     display: flex;
     justify-content: center;
 }
-.adr-section-left>img{
+.adr-section-left{
+    width: 50%;
+    
+}
+.adr-section-left>img{  
+    width:550px;
+    height: 350px;
+    /* height: 00px; */
+    margin-left: 110px;
+}
+.adr-section-right{
+    width: 50%;
+    padding-bottom: 100px;
+}
+.adr-section-right>h1{
+    font-size: 50px;
+}
+.adr-section-right>p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #808080;
+}
+.adr-section-btn >button{
+    margin-top: 50px;
+    height: 50px;
+    width: 150px;
+    background-color:#F4694C;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.adr-section-exp-btn{
+    margin-right: 10px;
+}
 
+/* Game recommendation section */
+
+.game-rec-top{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
 }
