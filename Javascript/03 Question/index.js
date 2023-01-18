@@ -1,2 +1,3 @@
 let firstName = "Shivansh"
-console.log(firstName.toUpperCase());
+let capital = firstName.toUpperCase();
+console.log(capital);
