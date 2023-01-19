@@ -324,6 +324,7 @@ main{
 }
 .text-part>p:nth-child(2){
     color: #F4694C;
+    font-weight: bold;
 }
 .text-part>p:nth-child(3){
     color: #808080;
@@ -336,4 +337,111 @@ main{
     color: white;
     font-weight: bold;
     font-size: 15px;
+}
+
+/* Most played games section */
+
+.most-played-games{
+    background-color:#000308;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding-top: 50px;
+}
+.most-played-games >div>h1{
+    text-align: center;
+    font-size: 50px;
+}
+.mpg-para{
+    padding: 50px;
+    position: relative;
+    left: 170px;
+    line-height: 30px;
+    color: #898B8D;
+}
+.game-of-the-world{
+    align-self: flex-end;
+}
+.most-played-games-images{
+    display: flex;
+    align-items: flex-end;
+}
+.img-1{
+    width: 400px;
+    position: relative;
+    bottom: 200px;
+    right: 60px;
+}
+.img-2{
+    width: 300px;
+    padding-right: 50px;
+    position: relative;
+    bottom: 90px;
+}
+.img-3{
+    width: 300px;
+    position: relative;
+    bottom: 90px;
+}
+
+/* Get started section */
+
+.get-started-section{
+    background-image: url('./Assets/Photos/Rectangle\ 606.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#080808c0;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding-bottom: 150px;
+}
+.get-started-section-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top:120px;
+}
+.get-started-section-para{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #898B8D;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Footer Section */
+
+ul,li{
+    list-style-type: none;
+}
+.footer-section{
+    display: flex;
+    background-color:#000309;
+    color: white;
+    justify-content: space-around;
+    padding: 70px;
+}
+.footer-left>div{
+    padding-bottom: 20px;
+}
+.footer-section>div>ul>li{
+    padding: 10px;
+}
+/* Bottom footer */
+.bottom-footer{
+    padding: 50px;
+    background-color:#000611;
+    border-top: 1px solid white;
 }
