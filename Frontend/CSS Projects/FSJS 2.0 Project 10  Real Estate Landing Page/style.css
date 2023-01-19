@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-main-section{
+    background-image: url('./Photos/mainBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#080808c0;
+    background-blend-mode: darken;
+    color:white;
+}
