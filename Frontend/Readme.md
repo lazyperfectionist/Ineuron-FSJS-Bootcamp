@@ -2,7 +2,7 @@
 
 ## CSS Project Links :
 1. [Project 1 : SEO Master](https://laxico-seo-master-landing-page.netlify.app/)
-2. [Project 2 : Crypto Market](https://laxico-crypto-marktet-landing-page.netlify.app/)
+2. [Project 2 : Crypto Market](https://laxico-crypto-market-landing-page.netlify.app/)
 3. [Project 3 : Fashion Hub](https://laxico-fashion-hub-landing-page.netlify.app/)
 4. [Project 4 : Calm Meditation](https://laxico-calm-meditation-landing-page.netlify.app/)
 5. [Project 5 : Medifine](https://laxico-medifine-landing-page.netlify.app/)
